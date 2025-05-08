@@ -143,6 +143,6 @@ echo "$(whoami) ALL=(ALL) NOPASSWD: /bin/systemctl restart nginx" | sudo tee /et
    chmod +x ~/askpass.sh
    ```
 
-## Snapshots
+## Screenshots
 
 
