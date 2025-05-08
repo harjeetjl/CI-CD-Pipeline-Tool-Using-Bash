@@ -37,5 +37,5 @@ if ! sudo -A systemctl restart nginx; then
     log_message "Failed to restart Nginx!"
     exit 1
 fi
-
+log_message "Nignix Server Restarted"
 log_message "Deployment completed successfully!"
