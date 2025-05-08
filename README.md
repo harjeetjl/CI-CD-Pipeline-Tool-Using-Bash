@@ -1,18 +1,18 @@
 # DevOps CI/CD Pipeline Tool
 
-A production-grade **CI/CD pipeline** for automatically detecting changes in a GitHub repository and deploying updates to an Nginx web server. Designed using Python and shell scripting, this project demonstrates a modular and automated approach to infrastructure-as-code for modern DevOps workflows.
+A **CI/CD pipeline** that automatically detects changes in a GitHub repository and updates an Nginx web server. This project uses Python and shell scripts to automate deployment in a simple and structured way.
 
 ## Project Structure
 
 ```
 CI-CD-Pipeline-Tool-Using-Bash/
 ├── deployment/
-│   ├── check_commits.py       # Script to check for new GitHub commits
+│   ├── checking_commits.py       # Script to check for new GitHub commits
 │   ├── deploy.sh              # Deployment automation script
 ├── log_sample/
 │   ├── check_commits.log      # Log output of commit checker
 │   ├── deploy.log             # Deployment log details
-│   ├── latest_commit.txt      # Stores latest deployed commit ID
+│   ├── latest_commit.txt      # Stores the latest deployed commit ID
 ├── .gitignore                 # Specifies untracked files
 ├── index.html                 # Static HTML page to be served
 ├── README.md                  # Project documentation
@@ -144,5 +144,21 @@ echo "$(whoami) ALL=(ALL) NOPASSWD: /bin/systemctl restart nginx" | sudo tee /et
    ```
 
 ## Screenshots
+1.Project Setup
+![image](https://github.com/user-attachments/assets/033ab8e4-93ee-4ba4-afa9-b25f1ea21214)
+
+2.Ngnix 
+![image](https://github.com/user-attachments/assets/9917cabc-c742-4f50-9e97-335e062853a9)
+
+3.Crontab
+![image](https://github.com/user-attachments/assets/587d253e-0edc-454a-adf9-a401f0614b0d)
+
+4.Logs
+![image](https://github.com/user-attachments/assets/fa6e2b0b-1ff3-41cd-b4cf-388aca155681)
+![image](https://github.com/user-attachments/assets/79c04281-df01-4744-b60f-e20cbdbdfa1b)
+![image](https://github.com/user-attachments/assets/c5813e34-dbba-46af-ad94-264697bc0b53)
+
+
+
 
 
