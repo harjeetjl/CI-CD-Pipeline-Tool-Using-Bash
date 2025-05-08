@@ -10,7 +10,7 @@ CI-CD-Pipeline-Tool-Using-Bash/
 │   ├── checking_commits.py       # Script to check for new GitHub commits
 │   ├── deploy.sh              # Deployment automation script
 ├── log_sample/
-│   ├── check_commits.log      # Log output of commit checker
+│   ├── checking_commits.log      # Log output of commit checker
 │   ├── deploy.log             # Deployment log details
 │   ├── latest_commit.txt      # Stores the latest deployed commit ID
 ├── .gitignore                 # Specifies untracked files
